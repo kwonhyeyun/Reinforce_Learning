@@ -68,11 +68,20 @@ target_model과 update_target_model 메서드를 통해 사용되는 타겟 네�
 get_action 메서드에서 epsilon-greedy 정책을 사용하여 탐험과 활용을 조절합니다.
 
  
-# 사용법
-OpenAI Gym이 설치되어 있지 않은 경우, 다음 명령을 사용하여 설치합니다:
+## 사용법
+git clone 후 필수 라이브러리 설치
+Keras
+numpy
+pandas
+h5py
 
 ```python
-pip install gym
+pip install -r requirements.txt
 ```
 
-# py 파일 실행하면됩니다.
+## 환경 버전 정보
+gym : 0.26.2
+h5py : 3.10.0
+keras : 2.15.0
+numpy : 1.26.2
+pandas : 2.0.0
